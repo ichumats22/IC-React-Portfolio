@@ -1,0 +1,8 @@
+#nav-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#nav-row a {
+  padding: 1%;
+}

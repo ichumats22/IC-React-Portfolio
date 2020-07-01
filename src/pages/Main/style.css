@@ -1,0 +1,39 @@
+h1, h2, p{
+  color: white;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .row .col {
+  align-content: center;
+}
+
+#home .row .col h1 {
+  color: white;
+}
+
+#home .row .col h2 {
+  color: white;
+}
+
+#about p {
+  color: white;
+}
+
+#headshot-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#about-text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20% 0 3%;
+}
