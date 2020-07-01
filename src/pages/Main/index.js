@@ -48,18 +48,36 @@ export default class Main extends Component {
         <Section id='portfolio'>
           <Row>
             <Col>
-              <PortfolioCard id='project-1' title='Project 1'>
-
-              </PortfolioCard>
+              <PortfolioCard id='shelter-finder' title='Shelter Finder'/>
             </Col>
             <Col>
-             
+              <PortfolioCard id='semi' title='Semi-Random Recommendations'/>
             </Col>
             <Col>
-              
+              <PortfolioCard id='hangman' title='Arizona Hangman Game'/>
             </Col>
             <Col>
-              
+              <PortfolioCard id='psychic' title='The Psychic Game'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='crystal-collector' title='Crystal Collector'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <PortfolioCard id='trivia' title='Totally Magical Trivia'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='gif' title='GIF-Tastic'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='train' title='Train Time'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='friend' title='Friend Finder'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='bamazon' title='Bamazon'/>
             </Col>
           </Row>
         </Section>
