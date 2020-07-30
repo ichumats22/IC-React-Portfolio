@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import './style.css'
 
 export default class Nav extends Component {
@@ -14,11 +14,19 @@ export default class Nav extends Component {
       )
     } else {
       return (
-        <Row id='nav-row'>
-          <a href='/#about'>ABOUT</a>
-          <a href='/#resume'>RESUME</a>
-          <a href='/#portfolio'>PORTFOLIO</a>
-          <a href='/#contact'>CONTACT</a>
+        <Row id='nav-row' xs='4'>
+          <Col>
+            <a href='/#about'>ABOUT</a>
+          </Col>
+          <Col>
+            <a href='/#resume'>RESUME</a>
+          </Col>
+          <Col>
+            <a href='/#portfolio'>PORTFOLIO</a>
+          </Col>
+          <Col>
+            <a href='/#contact'>CONTACT</a>
+          </Col>
         </Row>
       )
     }

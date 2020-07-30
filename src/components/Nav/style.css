@@ -1,8 +1,16 @@
 #nav-row {
+  position: fixed;
+  width: 100vw;
+}
+
+#nav-row .col {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 #nav-row a {
+  font-family: 'Unica One', cursive;
+  font-size: 2rem;
   padding: 1%;
+  color: #95EEED;
 }

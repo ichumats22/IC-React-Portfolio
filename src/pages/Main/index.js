@@ -46,12 +46,36 @@ export default class Main extends Component {
         </Section>
 
         <Section id='portfolio'>
-          <Row>
+          <Row xs='2' md='3' lg='5'>
+            <Col>
+              <PortfolioCard id='semi' title='Semi-Random Recommendations'/>
+            </Col>
             <Col>
               <PortfolioCard id='shelter-finder' title='Shelter Finder'/>
             </Col>
             <Col>
-              <PortfolioCard id='semi' title='Semi-Random Recommendations'/>
+              <PortfolioCard id='mc-portfolio' title='Professional Design Portfolio'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='google-books' title='Google Books Search'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='news-scraper' title='News Scraper'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='trivia' title='Totally Magical Trivia'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='train' title='Train Time'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='friend' title='Friend Finder'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='bamazon' title='Bamazon'/>
+            </Col>
+            <Col>
+              <PortfolioCard id='liri' title='Liri' />
             </Col>
             <Col>
               <PortfolioCard id='hangman' title='Arizona Hangman Game'/>
@@ -62,22 +86,11 @@ export default class Main extends Component {
             <Col>
               <PortfolioCard id='crystal-collector' title='Crystal Collector'/>
             </Col>
-          </Row>
-          <Row>
-            <Col>
-              <PortfolioCard id='trivia' title='Totally Magical Trivia'/>
-            </Col>
             <Col>
               <PortfolioCard id='gif' title='GIF-Tastic'/>
             </Col>
             <Col>
-              <PortfolioCard id='train' title='Train Time'/>
-            </Col>
-            <Col>
-              <PortfolioCard id='friend' title='Friend Finder'/>
-            </Col>
-            <Col>
-              <PortfolioCard id='bamazon' title='Bamazon'/>
+              <PortfolioCard id='burger' title='Burger Time'/>
             </Col>
           </Row>
         </Section>
